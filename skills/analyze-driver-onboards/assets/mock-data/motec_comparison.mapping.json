@@ -1,0 +1,44 @@
+{
+  "format": "motec-i2-csv",
+  "synthetic": true,
+  "scope": "one-contiguous-lap",
+  "source_time_bounds_s": [
+    0,
+    103
+  ],
+  "header_row": 4,
+  "units_row": 5,
+  "data_row": 6,
+  "channels": {
+    "time_s": {
+      "column": 0,
+      "name": "Time",
+      "unit": "s"
+    },
+    "distance_m": {
+      "column": 1,
+      "name": "Distance",
+      "unit": "m"
+    },
+    "speed_mps": {
+      "column": 2,
+      "name": "Ground Speed",
+      "unit": "km/h"
+    },
+    "throttle_pct": {
+      "column": 3,
+      "name": "Throttle Pos",
+      "unit": "%"
+    },
+    "brake_pressure_bar": {
+      "column": 4,
+      "name": "Brake Pressure",
+      "unit": "bar"
+    },
+    "gear": {
+      "column": 5,
+      "name": "Gear",
+      "unit": "count"
+    }
+  }
+}

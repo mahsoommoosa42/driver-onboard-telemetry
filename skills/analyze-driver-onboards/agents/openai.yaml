@@ -1,0 +1,14 @@
+interface:
+  display_name: Driver Onboards and Race Telemetry
+  short_description: Compare laps with verified video and telemetry alignment
+  default_prompt: Use $analyze-driver-onboards to compare these laps and identify
+    evidence-backed improvements.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

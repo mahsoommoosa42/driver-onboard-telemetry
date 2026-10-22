@@ -1,0 +1,39 @@
+{
+  "format": "racechrono-csv",
+  "synthetic": true,
+  "scope": "one-contiguous-lap",
+  "source_time_bounds_s": [
+    0,
+    103
+  ],
+  "header_row": 4,
+  "units_row": 5,
+  "data_row": 8,
+  "channels": {
+    "time_s": {
+      "column": 1,
+      "name": "elapsed time",
+      "unit": "s"
+    },
+    "distance_m": {
+      "column": 2,
+      "name": "distance",
+      "unit": "m"
+    },
+    "speed_mps": {
+      "column": 3,
+      "name": "speed",
+      "unit": "m/s"
+    },
+    "latitude_deg": {
+      "column": 4,
+      "name": "latitude",
+      "unit": "deg"
+    },
+    "longitude_deg": {
+      "column": 5,
+      "name": "longitude",
+      "unit": "deg"
+    }
+  }
+}
